@@ -1,0 +1,40 @@
+// Custom.scss
+// Option A: Include all of Bootstrap
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Open+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+
+$primary: #7d82b8;
+$secondary: #D47A25;
+// $success: #b7e3cc;
+// $info: #c4ffb2;
+// $warning: #d6f7a3;
+// $danger: #dd7596;
+$light: #f2f2f2;
+$dark: #313053;
+
+$font-family-sans-serif: "Open Sans", sans-serif;
+
+$headings-font-family: "Lora", serif;
+$headings-font-weight: 600; 
+// Include any default variable overrides here (though functions won't be available)
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+// Then add additional custom code here
+
+// @media (min-width:768px) {
+    
+//     #hero {
+//         position: relative;
+//     }
+
+//     .bg-image {
+//         position:absolute;
+//         left: 50%;
+//         width: 50%;
+//         height: 100%;
+//         padding: 0;
+//     }
+// }
+
+
+
