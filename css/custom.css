@@ -1,5 +1,6 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@600&family=Open+Sans:ital,wght@0,400..700;1,400..700&display=swap");
+@import url("https://fonts.googleapis.com/icon?family=Material+Icons+Outlined");
 /*!
  * Bootstrap  v5.3.3 (https://getbootstrap.com/)
  * Copyright 2011-2024 The Bootstrap Authors
@@ -11844,6 +11845,47 @@ textarea.form-control-lg {
   }
   .d-print-none {
     display: none !important;
+  }
+}
+.hero-banner {
+  position: relative;
+  background-image: url(/images/home-page/home-page-hero.jpg); /* Replace with any random image URL */
+  background-size: cover;
+  background-position: center;
+  height: 500px; /* Adjust height as needed */
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.hero-banner::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, #313053 50%, transparent);
+  z-index: 1;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding-left: 2rem;
+}
+
+.cart-icon {
+  vertical-align: -25%;
+}
+
+.sale-price {
+  color: #D47A25;
+}
+
+@media (min-width: 768px) {
+  .hero-banner::before {
+    background: linear-gradient(to right, #313053 35%, transparent);
   }
 }
 

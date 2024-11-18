@@ -9,6 +9,9 @@
 
 <body class="bg-light">
     <header class="sticky-top ">
+        <div class="bg-secondary text-white text-center">
+            <small class="mb-0 py-1">Free shipping on orders $100+ (tax not included) </small>
+        </div>
         <nav class="navbar navbar-expand-lg bg-white">
         <div class="container-lg">
           <a class="navbar-brand" href="index.html">
@@ -31,24 +34,25 @@
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-success" type="submit">
+              <button class="btn btn-outline-secondary" type="submit">
                 <img src="images/icons/search-icon.png" alt="search icon" height="20" class="d-inline-block align-text-top">
               </button>
             </form>
-            <img src="images/icons/shopping-cart-icon.png" alt="cart" height="40" class="d-inline-block align-text-top ms-4 me-2">
-            <img src="images/icons/profile-icon.png" alt="account profile" height="40" class="d-inline-block align-text-top">
+            <!-- <img src="images/icons/shopping-cart-icon.png" alt="cart" height="40" class="d-inline-block align-text-top ms-4 me-2">
+            <img src="images/icons/profile-icon.png" alt="account profile" height="40" class="d-inline-block align-text-top"> -->
+            <p class="m-0"><a href="#"><img src="/images/icons/shopping-cart-icon.png" alt="click here to view items in shopping cart" height="40" class="d-inline-block justify-content-center ms-4 me-2"></a></p>
+            <p class="m-0"><a href="#"><img src="/images/icons/profile-icon.png" alt="click here to view items in shopping cart" height="40" class="d-inline-block justify-content-center"></a></p>
           </div>
         </div>
       </nav>
     </header>
     
     <main>
-        <section id="hero" class="bg-dark text-white">
-            <div class="container-md h-100">
-               <div class="row h-100 align-items-center">
-               
-                    <div class="col-md-5 order-sm-1 order-2">
-                        <div>
+        <section>
+            <div class="hero-banner">
+                <div class="hero-content container-lg ps-lg-0">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
                             <h1 class="display-5 fw-bold">For All Your Hardware Needs</h1>
                             <p class="lead">With our vast catalog and easy online ordering, we make your DIY and repair tasks simple and efficient. Discover everything you need for your project at Kennedy Hardware.</p>
                             <a href="pages/categories.html" class="btn btn-secondary text-white" role="button">
@@ -56,15 +60,12 @@
                             </a>
                         </div>
                     </div>
-                    
-                    <div class="col-md-6 order-sm-2 order-1 offset-md-1">
-                        <img class="img-fluid object-fit-cover h-100" src="images/home-page/home-page-hero.jpg" alt="hardware case">
-                    </div>
-                </div> 
-            </div>
-          </section>
+                  
+                </div>
+              </div>
+        </section>
 
-          <section>
+        <section>
             <div class="container-lg">
                 <div class="row align-items-center">
                 
@@ -80,9 +81,9 @@
                      </div>
                  </div> 
              </div>
-          </section>
+        </section>
 
-          <section class="bg-dark">
+        <section class="bg-dark">
             <div class="container-lg">
                 <div class="row justify-content-center align-items-center">
                     <div class="col-sm-6 col-md-3">
@@ -93,9 +94,9 @@
                     </div>
                 </div>
             </div>
-          </section>
+        </section>
 
-          <section>
+        <section>
             <div class="container-lg">
                 <div class="row align-items-center">
                 
@@ -113,11 +114,11 @@
                          <img class="img-fluid object-fit-cover py-3 py-lg-5" src="images/home-page/home-page-featured-products-cropped.jpg" alt="antique drawer pull on dresser">
                      </div>
                  </div> 
-                 <hr class="border-3 ">
+                 <hr class="border-3 border-primary">
              </div>
-          </section>
+        </section>
 
-          <section>
+        <section>
             <div class="container-lg">
                 <div class="row align-items-center">
                 
@@ -135,13 +136,13 @@
                          <img class="img-fluid object-fit-cover py-3 py-lg-5" src="images/home-page/home-page-kh-exclusives-cropped.jpg" alt="man in workshop">
                      </div>
                  </div> 
-                 <hr class="border-3 ">
+                 <hr class="border-3 border-primary">
              </div>
-          </section>
+        </section>
 
-          <section>
+        <section>
             <div class="container-lg">
-                <h1 class="display-5 fw-bold text-primary text-center pt-5">On Sale</h1>
+                <h1 class="display-5 fw-bold text-primary text-center pt-4 pb-4">On Sale</h1>
                 <div class="row">
                     <div class="col-sm-6 col-lg-3">
                         <div class="card" style="width: 18rem;">
@@ -149,22 +150,27 @@
                             <div class="card-body">
                               <h5 class="card-title">Spool & Sewing Cabinet Knob</h5>
                               <p class="card-text">ITEM# BK-18</p>
+
+                              <div>
+                                <small class="text-decoration-line-through sale-price">$7.99</small>
+                              </div>
                               <div class="row">
-                                <div>
-                                   <p>Add to cart</p> 
+                                <div class="col-6">
+                                    <p class="m-0">$9.99</p>
+                                </div>
+                                <div class="col-6">
+                                   <p class="text-end m-0">Add to cart<span class="material-icons-outlined cart-icon ps-2">shopping_cart</span></p> 
                                 </div>
                                 
-                                <img src="images/icons/shopping-cart-icon.png" alt="shopping-cart-icon" height="30">
-                              </div>
-                             
-                                
+                              </div>  
                             
                             </div>
                         </div>
                     </div>
+                   
                 </div>
             </div>
-          </section>
+        </section>
 
           <footer class="bg-white">
             <hr class="border-3 border-secondary">
