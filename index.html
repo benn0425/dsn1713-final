@@ -33,15 +33,17 @@
               </li>
             </ul>
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-              <button class="btn btn-outline-secondary" type="submit">
+              <input class="form-control me-2 mb-3 mb-lg-0" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-secondary mb-3 mb-lg-0" type="submit">
                 <img src="images/icons/search-icon.png" alt="search icon" height="20" class="d-inline-block align-text-top">
               </button>
             </form>
-            <!-- <img src="images/icons/shopping-cart-icon.png" alt="cart" height="40" class="d-inline-block align-text-top ms-4 me-2">
-            <img src="images/icons/profile-icon.png" alt="account profile" height="40" class="d-inline-block align-text-top"> -->
-            <p class="m-0"><a href="#"><img src="/images/icons/shopping-cart-icon.png" alt="click here to view items in shopping cart" height="40" class="d-inline-block justify-content-center ms-4 me-2"></a></p>
-            <p class="m-0"><a href="#"><img src="/images/icons/profile-icon.png" alt="click here to view items in shopping cart" height="40" class="d-inline-block justify-content-center"></a></p>
+
+            <div class="row">
+                <p class="col-1 col-lg-6 m-0 p-lg-0"><a href="#"><img src="images/icons/shopping-cart-icon.png" alt="click here to view items in shopping cart" height="40" class="d-inline-block justify-content-center ms-lg-4 me-lg-2"></a></p>
+                <p class="col-1 col-lg-6 m-0 ps-sm-0 ps-lg-3 pe-0"><a href="#"><img src="images/icons/profile-icon.png" alt="click here to view items in shopping cart" height="40" class="d-inline-block justify-content-center"></a></p>
+            </div>
+ 
           </div>
         </div>
       </nav>
@@ -143,31 +145,95 @@
         <section>
             <div class="container-lg">
                 <h1 class="display-5 fw-bold text-primary text-center pt-4 pb-4">On Sale</h1>
-                <div class="row">
-                    <div class="col-sm-6 col-lg-3">
-                        <div class="card" style="width: 18rem;">
-                            <img src="images/home-page/sale-section/sale-section-spool-and-sewing-cabinet-knob.jpg" class="card-img-top" alt="ornate brass spool and sewing cabinet knob">
+                <div class="row g-3 card-deck">
+                    <div class="col-6 col-lg-3">
+                        <div class="card" style="width: 100%; height: 100%;">
+                            <p><a href="#"><img src="/images/home-page/sale-section/sale-section-spool-and-sewing-cabinet-knob.jpg" class="card-img-top" alt="Spool and sewing cabinet knob"></a></p>
                             <div class="card-body">
-                              <h5 class="card-title">Spool & Sewing Cabinet Knob</h5>
+                              <h5 class="card-title"><a class="link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-black" href="#">Spool & Sewing Cabinet Knob</a></h5>
                               <p class="card-text">ITEM# BK-18</p>
+
+                              <div>
+                                <small class="text-decoration-line-through sale-price">$9.99</small>
+                              </div>
+                              <div class="row">
+                                <div class="col-6">
+                                    <p class="m-0">$7.99</p>
+                                </div>
+                                <div class="col-6">
+                                   <p class="text-end m-0"><a class="link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-black" href="#">Add to cart<span class="material-icons-outlined cart-icon ps-2">shopping_cart</span></a></p> 
+                                </div>
+                              </div>  
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3">
+                        <div class="card" style="width: 100%; height: 100%;">
+                            <p><a href="#"><img src="/images/home-page/sale-section/sale-section-small-heavy-duty-cast-iron-trunk-handle.jpg" class="card-img-top" alt="Heavy duty cast iron trunk handle"></a></p>
+                            <div class="card-body">
+                              <h5 class="card-title"><a class="link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-black" href="#">Small Heavy Duty Cast Iron Trunk Handle</a></h5>
+                              <p class="card-text">ITEM# TKH-10</p>
+
+                              <div>
+                                <small class="text-decoration-line-through sale-price">$12.99</small>
+                              </div>
+                              <div class="row">
+                                <div class="col-6">
+                                    <p class="m-0">$10.38</p>
+                                </div>
+                                <div class="col-6">
+                                   <p class="text-end m-0"><a class="link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-black" href="#">Add to cart<span class="material-icons-outlined cart-icon ps-2">shopping_cart</span></a></p> 
+                                </div>
+                              </div>  
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3">
+                        <div class="card" style="width: 100%; height: 100%;">
+                            <p><a href="#"><img src="/images/home-page/sale-section/sale-section-victorian-brass-drawer-pull.jpg" class="card-img-top" alt="Vicotrian brass drawer pull"></a></p>
+                            <div class="card-body">
+                              <h5 class="card-title"><a class="link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-black" href="#">Victorian Brass Drawer Pull</a></h5>
+                              <p class="card-text">ITEM# P-4BAR</p>
+
+                              <div>
+                                <small class="text-decoration-line-through sale-price">$8.99</small>
+                              </div>
+                              <div class="row">
+                                <div class="col-6">
+                                    <p class="m-0">$6.00</p>
+                                </div>
+                                <div class="col-6">
+                                   <p class="text-end m-0"><a class="link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-black" href="#">Add to cart<span class="material-icons-outlined cart-icon ps-2">shopping_cart</span></a></p> 
+                                </div>
+                              </div>  
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-lg-3">
+                        <div class="card" style="width: 100%; height: 100%;">
+                            <p><a href="#"><img src="/images/home-page/sale-section/sale-section-new-old-stock-footlocker-drawbolt.jpg" class="card-img-top" alt="New old stock footlocker drawbolt"></a></p>
+                            <div class="card-body">
+                              <h5 class="card-title"><a class="link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-black" href="#">New Old Stock Footlocker Drawbolt</a></h5>
+                              <p class="card-text">ITEM# TKD-2BAR</p>
 
                               <div>
                                 <small class="text-decoration-line-through sale-price">$7.99</small>
                               </div>
                               <div class="row">
                                 <div class="col-6">
-                                    <p class="m-0">$9.99</p>
+                                    <p class="m-0">$6.00</p>
                                 </div>
                                 <div class="col-6">
-                                   <p class="text-end m-0">Add to cart<span class="material-icons-outlined cart-icon ps-2">shopping_cart</span></p> 
+                                   <p class="text-end m-0"><a class="link-offset-2 link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-black" href="#">Add to cart<span class="material-icons-outlined cart-icon ps-2">shopping_cart</span></a></p> 
                                 </div>
-                                
                               </div>  
-                            
                             </div>
                         </div>
                     </div>
-                   
+                    
                 </div>
             </div>
         </section>
@@ -205,7 +271,7 @@
                     <div class="col-12 col-md-3 col-lg-2">
                         <p class="fw-bold mb-1">Social Media</p>
 
-                        <p><a href="https://www.facebook.com/KennedyHardwareIndy/?fref=ts"><img class="img-fluid" width="50%" src="images/icons/follow-us-on-facebook-icon.png" alt="click button to visit the Kennedy Hardware Facebook page"></a></p>
+                        <p><a href="https://www.facebook.com/KennedyHardwareIndy/?fref=ts"><img class="img-fluid facebook-icon" width="25%" src="images/icons/follow-us-on-facebook-icon.png" alt="click button to visit the Kennedy Hardware Facebook page"></a></p>
 
                     </div>
                     <div class="col-12 col-md-3 col-lg-4 offset-lg-2 text-md-end mt-auto mb-0">
@@ -218,5 +284,6 @@
           </footer>
     </main>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </body>
 </html>

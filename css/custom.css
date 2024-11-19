@@ -11883,9 +11883,18 @@ textarea.form-control-lg {
   color: #D47A25;
 }
 
+.card-text {
+  flex-grow: 1;
+}
+
 @media (min-width: 768px) {
   .hero-banner::before {
     background: linear-gradient(to right, #313053 35%, transparent);
+  }
+}
+@media (min-width: 768px) {
+  .facebook-icon {
+    width: 50%;
   }
 }
 
