@@ -19,6 +19,13 @@ $headings-font-family: "Lora", serif;
 $headings-font-weight: 600; 
 
 $hr-opacity: 100%;
+
+// $h1-font-size: 1rem * 3.815;
+// $h2-font-size: 1rem * 3.052;
+// $h3-font-size: 1rem * 2.441;
+// $h4-font-size: 1rem * 2.441;
+// $h5-font-size: 1rem * 1.563;
+// $h6-font-szie: 1rem * 1.25;
   
 // Include any default variable overrides here (though functions won't be available)
 
@@ -134,6 +141,7 @@ $hr-opacity: 100%;
     flex-direction: column;
   }
 
+
   @media (min-width: 768px) {
     .hero-banner::before, .hero-banner-categories::before, .hero-banner-contact::before {
         background: linear-gradient(to right, $dark 35%, transparent);
@@ -148,3 +156,5 @@ $hr-opacity: 100%;
     }
 
   }
+
+
