@@ -122,15 +122,29 @@ $hr-opacity: 100%;
     flex-grow: 1;
   }
 
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+
+  .card-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
   @media (min-width: 768px) {
     .hero-banner::before, .hero-banner-categories::before, .hero-banner-contact::before {
         background: linear-gradient(to right, $dark 35%, transparent);
     }
 
-  }
-
-  @media (min-width: 768px) {
     .facebook-icon {
-        width: 50%;
+      width: 50%;
     }
+
+    .review-stars-icon {
+      width: 100%;
+    }
+
   }
