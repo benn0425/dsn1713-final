@@ -11878,7 +11878,7 @@ textarea.form-control-lg {
 
 .hero-banner-categories {
   position: relative;
-  background-image: url(/images/category-page/category-page-hero.jpg); /* Replace with any random image URL */
+  background-image: url(../images/category-page/category-page-hero.jpg); /* Replace with any random image URL */
   background-size: cover;
   background-position: center;
   height: 500px; /* Adjust height as needed */
@@ -11906,7 +11906,7 @@ textarea.form-control-lg {
 
 .hero-banner-contact {
   position: relative;
-  background-image: url(/images/contact-page/contact-page-hero.jpg); /* Replace with any random image URL */
+  background-image: url(../images/contact-page/contact-page-hero.jpg); /* Replace with any random image URL */
   background-size: cover;
   background-position: center;
   height: 500px; /* Adjust height as needed */
